@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyActivity">
+
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <ImageButton
+        android:id="@+id/buy"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/airtime"
+        android:layout_marginLeft="30dp">
+
+    </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:layout_below="@+id/buy"
+    android:text="Air time"
+    android:textSize="20dp"
+    android:layout_marginLeft="30dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/min"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="40dp"
+      android:src="@drawable/minutes"
+      android:layout_marginLeft="250dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/min"
+      android:text="Minutes"
+      android:textSize="20dp"
+      android:layout_marginLeft="250dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/data"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="200dp"
+      android:src="@drawable/data"
+      android:layout_marginLeft="30dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/data"
+      android:text="Data"
+      android:textSize="20dp"
+      android:layout_marginLeft="30dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/sms"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="200dp"
+      android:src="@drawable/sms"
+      android:layout_marginLeft="250dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/sms"
+      android:text="SMS"
+      android:textSize="20dp"
+      android:layout_marginLeft="250dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/bundles"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="350dp"
+      android:src="@drawable/play"
+      android:layout_marginLeft="30dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/bundles"
+      android:text="Super Bundles"
+      android:textSize="20dp"
+      android:layout_marginLeft="30dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/max"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="350dp"
+      android:src="@drawable/data"
+      android:layout_marginLeft="250dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/max"
+      android:text="WakaNet Max"
+      android:textSize="20dp"
+      android:layout_marginLeft="250dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/yange"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="500dp"
+      android:src="@drawable/yange"
+      android:layout_marginLeft="30dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/yange"
+      android:text="MTN Yange"
+      android:textSize="20dp"
+      android:layout_marginLeft="30dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/music"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="500dp"
+      android:src="@drawable/data"
+      android:layout_marginLeft="250dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/music"
+      android:text="MusicTV"
+      android:textSize="20dp"
+      android:layout_marginLeft="250dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/xtra"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="650dp"
+      android:src="@drawable/yange"
+      android:layout_marginLeft="30dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/xtra"
+      android:text="Xtratime"
+      android:textSize="20dp"
+      android:layout_marginLeft="30dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/pro"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="650dp"
+      android:src="@drawable/data"
+      android:layout_marginLeft="250dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/pro"
+      android:text="Air time"
+      android:textSize="20dp"
+      android:layout_marginLeft="250dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/Hunt"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="750dp"
+      android:src="@drawable/data"
+      android:layout_marginLeft="30dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/Hunt"
+      android:text="Scavenger Hunt"
+      android:textSize="20dp"
+      android:layout_marginLeft="30dp"></TextView>
+
+  <ImageButton
+      android:id="@+id/other"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="750dp"
+      android:src="@drawable/yange"
+      android:layout_marginLeft="250dp">
+
+  </ImageButton>
+  <TextView
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/other"
+      android:text="Other"
+      android:textSize="20dp"
+      android:layout_marginLeft="250dp"></TextView>
+
+    </RelativeLayout>
+
+
+  </ScrollView>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:layout_alignParentBottom="true"
+      android:background="#3F51B5">
+    <RelativeLayout
+
+        android:gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+      <ImageButton
+          android:id="@+id/home1"
+          android:layout_marginLeft="30dp"
+          android:src="@drawable/home"
+          android:layout_width="50dp"
+          android:layout_height="50dp"/>
+      />
+      <TextView
+          android:layout_marginLeft="30dp"
+          android:layout_below="@+id/home1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Home"
+          android:textSize="12dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+
+      <ImageButton
+          android:id="@+id/buy"
+          android:layout_marginLeft="50dp"
+          android:src="@drawable/buy"
+          android:layout_width="50dp"
+          android:layout_height="50dp"/>
+      />
+      <TextView
+          android:layout_below="@+id/buy"
+          android:layout_marginLeft="50dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Buy"
+          android:textSize="12dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+      <ImageView
+          android:id="@+id/send"
+          android:layout_marginLeft="50dp"
+          android:src="@drawable/send"
+          android:layout_width="50dp"
+          android:layout_height="50dp"/>
+      />
+      <TextView
+          android:layout_below="@+id/send"
+          android:layout_marginLeft="50dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Send"
+          android:textSize="12dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+      <ImageView
+          android:id="@+id/help"
+          android:layout_marginLeft="50dp"
+          android:src="@drawable/help"
+          android:layout_width="50dp"
+          android:layout_height="50dp"/>
+      />
+      <TextView
+          android:layout_below="@+id/help"
+          android:layout_marginLeft="50dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Help"
+          android:textSize="12dp"/>
+    </RelativeLayout>
+
+  </LinearLayout>
+
+
+
+</RelativeLayout>

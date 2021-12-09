@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Yello</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- menu lables-->.
+
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Profile</string>
+    <string name="nav_movies">Subscription</string>
+    <string name="nav_notifications">MTN Services</string>
+    <string name="nav_settings">Senkyu</string>
+    <string name="nav_about_us">Settings</string>
+    <string name="nav_Staff">Staff</string>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+
+
+
+        <string name="activity_title_about_us">About Us</string>
+        <string name="activity_title_privacy_policy">Privacy Policy</string>
+        <string name="action_clear_all">Clear All</string>
+        <string name="action_logout">Logout</string>
+        <string name="action_mark_all_read">Mark All as Read</string>
+        <string name="privacy_policy">Privacy Policy</string>
+
+
+ 
+    <string-array name="array.body">
+        <item> body</item>
+    </string-array>
+    <string-array name="spinner_array">
+        <item> Home</item>
+        <item> Profile</item>
+        <item> Subscription</item>
+        <item> MTN Services</item>
+        <item> Senkyu</item>
+        <item> Settings</item>
+        <item> Staff</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

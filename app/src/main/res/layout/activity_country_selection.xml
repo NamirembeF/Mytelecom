@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountrySelection">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MTN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="50dp"
+        android:textColor="#FDBE02"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my MTN"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Country"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/choose"
+        android:textColor="@color/black"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choose"
+        android:scrollbars="vertical">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/table">
+
+
+
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afganstan"
+                    android:textSize="20dp"/>
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#E3DDDD"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cameroon"
+                    android:textSize="20dp"/>
+
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uganda"
+                    android:textSize="20dp"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#F6DEDE"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ghana"
+                    android:textSize="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afganstan"
+                    android:textSize="20dp"/>
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#E3DDDD"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cameroon"
+                    android:textSize="20dp"/>
+
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uganda"
+                    android:textSize="20dp"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#F6DEDE"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ghana"
+                    android:textSize="20dp"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afganstan"
+                    android:textSize="20dp"/>
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#E3DDDD"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cameroon"
+                    android:textSize="20dp"/>
+
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uganda"
+                    android:textSize="20dp"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#F6DEDE"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ghana"
+                    android:textSize="20dp"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afganstan"
+                    android:textSize="20dp"/>
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#E3DDDD"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cameroon"
+                    android:textSize="20dp"/>
+
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uganda"
+                    android:textSize="20dp"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#F6DEDE"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ghana"
+                    android:textSize="20dp"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afganstan"
+                    android:textSize="20dp"/>
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#E3DDDD"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cameroon"
+                    android:textSize="20dp"/>
+
+
+
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#BDB6B6"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uganda"
+                    android:textSize="20dp"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:clickable="true"
+                android:background="#F6DEDE"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ghana"
+                    android:textSize="20dp"
+                    />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/butx"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="250dp"
+        android:text="Click"
+        android:textColor="#0C0C0C"
+
+        android:background="#FFEB3B"
+
+        />
+
+
+</RelativeLayout>

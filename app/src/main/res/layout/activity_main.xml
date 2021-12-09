@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MTN"
+        android:textSize="60dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFEB3B"
+        android:layout_marginTop="30dp"
+        android:id="@+id/mtn"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify your number"
+        android:textColor="#0B0A0A"
+        android:layout_below="@+id/mtn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/verify"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your phone number to receive an OTP"
+        android:layout_below="@+id/verify"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="#0B0A0A"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:height="50dp"
+        android:width="300dp"
+        android:layout_marginLeft="30dp"
+        android:background="#757171"
+        android:id="@+id/edit"
+        />
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:layout_below="@id/edit"
+        android:layout_marginLeft="200dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/but"
+        android:id="@+id/gen"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="arial"
+        android:textSize="20dp"
+        android:textColor="#FFC107"
+        android:text="Gender"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/gen"
+        android:layout_marginLeft="30dp"
+        android:text="female"
+        android:id="@+id/female"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/female"
+        android:layout_marginLeft="30dp"
+        android:text="male"
+        android:id="@+id/male"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gen">
+
+        <RadioButton
+            android:id="@+id/rad1"
+            android:layout_marginLeft="150dp"
+            android:text="female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rad2"
+            android:text="male"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>

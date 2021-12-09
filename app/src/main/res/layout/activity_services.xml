@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_below="@+id/hallo"
+
+        tools:context="com.test.first2.ImageSlider">
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:id="@+id/my_pager"
+            android:layout_height="200dp"
+
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <com.google.android.material.tabs.TabLayout
+            app:layout_constraintBottom_toBottomOf="@+id/my_pager"
+            android:id="@+id/my_tablayout"
+            app:tabIndicatorHeight="50dp"
+            app:tabGravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.tabs.TabLayout>
+    </RelativeLayout>
+
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services">
+
+
+
+    <ImageView
+        android:id="@+id/momo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"
+        android:background="#FFC107"
+        android:src="@drawable/mtn3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/momo"
+        android:text="MTN MOMO"
+        android:layout_marginLeft="30dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"
+        />
+
+    <ImageView
+        android:src="@drawable/bank"
+        android:id="@+id/security"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="370dp"
+        android:background="#FFC107"
+        />
+    <TextView
+        android:id="@+id/ug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security"
+        android:text="Uganda"
+        android:layout_marginLeft="150dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"/>
+    <TextView
+        android:id="@+id/sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ug"
+        android:text="Securities"
+        android:layout_marginLeft="150dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"
+        />
+
+
+    <ImageView
+        android:src="@drawable/gift"
+        android:id="@+id/senkyu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="370dp"
+        android:background="#FFC107"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/senkyu"
+        android:text="MTN Senkyu"
+        android:layout_marginLeft="260dp"
+        android:textSize="18dp"/>
+    <ImageView
+        android:id="@+id/ayo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:background="#FFC107"
+        android:src="@drawable/ayoba"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ayo"
+        android:text="Ayoba"
+        android:layout_marginLeft="30dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"
+        />
+
+    <ImageView
+        android:src="@drawable/download"
+        android:id="@+id/games"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="480dp"
+        android:background="#FFC107"
+        />
+    <TextView
+        android:id="@+id/mt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/games"
+        android:text="MTN"
+        android:layout_marginLeft="150dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"/>
+    <TextView
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mt"
+        android:text="GoGames"
+        android:layout_marginLeft="150dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"
+        />
+
+    <ImageView
+        android:src="@drawable/egg"
+        android:id="@+id/crack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="480dp"
+        android:background="#FFC107"
+        />
+    <TextView
+        android:id="@+id/egg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crack"
+        android:text="Crack the"
+        android:layout_marginLeft="260dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/egg"
+        android:text="egg"
+        android:layout_marginLeft="260dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/senkyu"
+        android:text="MTN Senkyu"
+        android:layout_marginLeft="260dp"
+        android:textSize="18dp"/>
+    <ImageView
+        android:id="@+id/corona"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="580dp"
+        android:background="#FFC107"
+        android:src="@drawable/covid"
+
+        />
+    <TextView
+        android:id="@+id/safe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/corona"
+        android:text="#Staysafe"
+        android:layout_marginLeft="30dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"
+        />
+
+    <ImageView
+        android:src="@drawable/tidal"
+        android:id="@+id/tid"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="580dp"
+        android:background="#FFC107"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tid"
+        android:text="TIDAL"
+        android:layout_marginLeft="150dp"
+        android:textSize="18dp"
+        android:fontFamily="Arial"/>
+
+    <ImageView
+        android:src="@drawable/pulse"
+        android:id="@+id/pul"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="580dp"
+        android:background="#FFC107"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pul"
+        android:text="MTN Pulse"
+        android:layout_marginLeft="260dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/egg"
+        android:text="egg"
+        android:layout_marginLeft="260dp"/>
+
+
+
+</RelativeLayout>
+
+</ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hallo FATUMA"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hallo"
+        />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/img1"
+        android:src="@drawable/mtn2"
+        android:layout_marginTop="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/spinner_array"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/hallo"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#3F51B5">
+        <RelativeLayout
+
+            android:gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+            <ImageButton
+                android:id="@+id/home1"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_below="@+id/home1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textSize="12dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+
+            <ImageButton
+                android:id="@+id/buy"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/buy"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            />
+            <TextView
+                android:layout_below="@+id/buy"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy"
+                android:textSize="12dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+            <ImageView
+                android:id="@+id/send"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/send"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            />
+            <TextView
+                android:layout_below="@+id/send"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:textSize="12dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+            <ImageView
+                android:id="@+id/help"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/help"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            />
+            <TextView
+                android:layout_below="@+id/help"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:textSize="12dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
